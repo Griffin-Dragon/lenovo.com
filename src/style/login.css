@@ -1,0 +1,258 @@
+.ppMask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000099;
+  background: #000;
+  opacity: 0.3;
+  display: none;
+}
+.ppWrapper {
+  display: none;
+  position: fixed;
+  width: 330px;
+  height: auto;
+  padding: 0 125px;
+  left: 50%;
+  top: 90px;
+  margin-left: -290px;
+  z-index: 10000100;
+  background: #fff;
+}
+.ppWrapper > a {
+  position: absolute;
+  right: -66px;
+  top: -28px;
+  z-index: 111111;
+  width: 50px;
+  height: 50px;
+  background: url(../img/detail/icon-5.png) center no-repeat;
+  background-size: 50px 50px;
+}
+.ppWrapper > .login_pp > h3 {
+  display: block;
+  margin-top: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.ppWrapper > .login_pp > .login_input {
+  width: 100%;
+  margin-top: 38px;
+  margin-bottom: 14px;
+  position: relative;
+}
+.ppWrapper > .login_pp > .login_input > input {
+  box-sizing: content-box !important;
+  width: 258px;
+  border: 1px solid #d6d6d6;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 20px;
+  padding-right: 50px;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.ppWrapper > .login_pp > .login_input > i {
+  display: none;
+  position: absolute;
+  right: 14px;
+  top: 17px;
+  width: 16px;
+  height: 16px;
+  background: url(../img/detail/icon-6.png) center no-repeat;
+  cursor: pointer;
+  background-size: 16px 16px;
+}
+.ppWrapper > .login_pp > .input_password {
+  margin-top: 0px;
+}
+.ppWrapper > .login_pp > .login_mains {
+  margin: 16px 0;
+}
+.ppWrapper > .login_pp > .login_mains > input {
+  float: left;
+  margin-right: 5px;
+}
+.ppWrapper > .login_pp > .login_mains > label {
+  display: block;
+  line-height: 14px;
+  color: #000;
+  font-size: 14px;
+  width: 90px;
+  cursor: pointer;
+}
+.ppWrapper > .login_pp > a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  width: 330px;
+  background-color: #e22319;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  margin: 10px 0 0;
+}
+.ppWrapper > .login_pp > .denglu {
+  overflow: hidden;
+}
+.ppWrapper > .login_pp > .denglu > a {
+  float: left;
+  color: #ef1c22;
+  font-size: 14px;
+  line-height: 14px;
+}
+.ppWrapper > .login_pp > .denglu > a:nth-of-type(2) {
+  display: none;
+}
+.ppWrapper > .login_pp > .denglu > .login_others {
+  float: right;
+}
+.ppWrapper > .login_pp > .denglu > .login_others > a {
+  font-size: 14px;
+  line-height: 14px;
+  float: left;
+  color: #757575;
+}
+.ppWrapper > .login_pp > .denglu > .login_others > a:nth-of-type(1) {
+  border-right: 1px solid #a4a3a3;
+  padding-right: 5px;
+}
+.ppWrapper > .login_pp > .denglu > .login_others > a:nth-of-type(2) {
+  border-left: 1px solid #e3e3e3;
+  padding-left: 5px;
+}
+.ppWrapper > .login_pp > .cooperation {
+  width: 330px;
+  height: 90px;
+  margin-top: 40px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation-title {
+  text-align: center;
+  font-size: 14px;
+  color: #8c8c8c;
+  line-height: 14px;
+  height: 14px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation-title > span {
+  width: 123px;
+  height: 1px;
+  background-color: #a4a3a3;
+  float: left;
+  margin-top: 6px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items {
+  margin-top: 15px;
+  padding: 0 60px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a {
+  float: left;
+  margin-left: 28px;
+  width: 31px;
+  height: 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:first-of-type {
+  margin-left: 0;
+  background: url(../img/detail/qq.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:first-of-type:hover {
+  background: url(../img/detail/qq-1.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:nth-of-type(2) {
+  background: url(../img/detail/xinlang.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:nth-of-type(2):hover {
+  background: url(../img/detail/xinlang-1.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:nth-of-type(3) {
+  background: url(../img/detail/weixin.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:nth-of-type(3):hover {
+  background: url(../img/detail/weixin-1.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:nth-of-type(4) {
+  background: url(../img/detail/zhifubao.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .cooperation > .cooperation_items > a:nth-of-type(4):hover {
+  background: url(../img/detail/zhifubao-1.png) no-repeat;
+  background-size: 31px 31px;
+}
+.ppWrapper > .login_pp > .login_switch {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.ppWrapper > .login_pp > .login_switch > p {
+  width: 80px;
+  height: 80px;
+  background: url(../img/detail/erweima.png) center no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  display: block;
+}
+.ppWrapper > .login_pp > .login_tip {
+  position: absolute;
+  right: 84px;
+  top: 10px;
+}
+.ppWrapper > .login_pp > .login_tip > .poptip {
+  border: 2px solid #f3d995;
+  height: 16px;
+  line-height: 16px;
+  padding: 5px 20px 5px 15px;
+  background: #fefcee;
+  position: relative;
+}
+.ppWrapper > .login_pp > .login_tip > .poptip > .poptip_arrow {
+  top: 8px;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+}
+.ppWrapper > .login_pp > .login_tip > .poptip > .poptip_arrow > em {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: hsla(0, 0%, 100%, 0);
+  border-style: solid;
+  overflow: hidden;
+  top: 0;
+  left: 1px;
+  border-left-color: #f3d995;
+  border-width: 6px 0 6px 6px;
+}
+.ppWrapper > .login_pp > .login_tip > .poptip > .poptip_arrow > span {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: hsla(0, 0%, 100%, 0);
+  border-style: solid;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  border-left-color: #fefcee;
+  border-width: 6px 0 5px 5px;
+}
+.ppWrapper > .login_pp > .login_tip > .poptip > span {
+  color: #6b6964;
+  font-size: 12px;
+  font-weight: 400;
+  width: 104px;
+}
+.ppWrapper > .login_pp > .login_tip > .poptip > span > img {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  margin-right: 6px;
+  margin-top: 1px;
+}
